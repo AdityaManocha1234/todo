@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+button {
+  padding: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+  background-color: deepskyblue;
+  border-color: aquamarine;
+  
+}
+button:hover{
+  cursor: pointer;
+  color: aqua;
+  border-radius: 15px;
+  transition: 0.6s;
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  margin: 0.5em 0;
+}
+
+li input[type="checkbox"] {
+  margin-right: 0.5em;
 }
